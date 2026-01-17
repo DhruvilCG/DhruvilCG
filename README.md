@@ -140,37 +140,51 @@ const Dhruvil = {
 <table>
   <tr>
     <td align="center">
-      <a href="https://simpli-web.app.link/e/PMoy7glUUWb" target="_blank">
-        <img src="https://certificates.simplicdn.net/share/8543560_87089041751407132908.png" width="260" 
-        title="Azure Fundamentals - Simplilearn | May 19, 2025"/>
+      <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzI4IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODM2MzE3Nl84NzE0NDUzMTc0NzY2NTY4NjY2MC5wbmciLCJ1c2VybmFtZSI6IkRocnV2aWxrdW1hciBNIFBhdGVsIn0%3D" target="_blank">
+        <img src="https://certificates.simplicdn.net/share/8363176_87144531747665686660.png" width="260" 
+        title="Azure Fundamentals - Simplilearn"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://simpli-web.app.link/e/beY8Lv4TUWb" target="_blank">
-        <img src="https://certificates.simplicdn.net/share/beY8Lv4TUWb/image.png" width="260" 
-        title="Introduction to Basics of Azure Services - Simplilearn | June 11, 2025"/>
+      <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIyMDEwIiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODQ1NjYyNl84NzE0NDUzMTc0OTY2OTYzNjYwMC5wbmciLCJ1c2VybmFtZSI6IkRocnV2aWxrdW1hciBNIFBhdGVsICJ9" target="_blank">
+        <img src="https://certificates.simplicdn.net/share/8456626_87144531749669636600.png" width="260" 
+        title="Introduction to Basics of Azure Services - Simplilearn"/>
       </a>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <a href="https://www.aicte-india.org/" target="_blank">
-        <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1751382209/Screenshot_2025-07-01_at_8.30.27_PM_ooileu.png" width="260" 
-        title="AICTE Certificate"/>
+      <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI0ODc2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvODUxMzUxMV84NzE0NDUzMTc1MDc4ODY2NDg1My5wbmciLCJ1c2VybmFtZSI6IkRocnV2aWxrdW1hciBNIFBhdGVsIn0%3D" target="_blank">
+        <img src="https://certificates.simplicdn.net/share/8513511_87144531750788664853.png" width="260" 
+        title="GitHub Copilot Fundamentals - Simplilearn"/>
       </a>
     </td>
+    <td align="center">
+      <a href="https://www.naukri.com/campus/certificates/young_turks25_round_1_achievement/v0/68d9d36c7baf842bcc2da2ec" target="_blank">
+        <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1737130000/Naukri_Young_Turks_Placeholder.png" width="260" 
+        title="Naukri Campus Young Turks 2025 - Certificate of Merit"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.hackerrank.com/certificates/6204eedcd3f4" target="_blank">
+        <img src="https://www.hackerrank.com/certificates/6204eedcd3f4/image.jpg" width="260" 
+        title="CSS (Basic) - HackerRank"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://www.hackerrank.com/certificates/9b087c4f8065" target="_blank">
+        <img src="https://www.hackerrank.com/certificates/9b087c4f8065/image.jpg" width="260" 
+        title="React (Basic) - HackerRank"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
     <td align="center">
       <a href="https://onlinecourses.nptel.ac.in/" target="_blank">
         <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1767675826/Screenshot_2026-01-06_at_10.33.31_AM_wwwd9z.png" width="260" 
         title="NPTEL Programming in Java"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://simpli-web.app.link/e/mOR6sv0TUWb" target="_blank">
-        <img src="https://certificates.simplicdn.net/share/8356658_87089041747516430791.png" width="260" 
-        title="GitHub Copilot Fundamentals - Simplilearn (Microsoft) | June 24, 2025"/>
       </a>
     </td>
     <td align="center">
@@ -180,21 +194,9 @@ const Dhruvil = {
       </a>
     </td>
   </tr>
-  <tr>
-    <td align="center">
-      <a href="https://www.hackerrank.com/certificates/6204eedcd3f4" target="_blank">
-        <img src="https://www.hackerrank.com/certificates/6204eedcd3f4" width="260" 
-        title="CSS (Basic) - HackerRank | May 21, 2025"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.hackerrank.com/certificates/9b087c4f8065" target="_blank">
-        <img src="https://www.hackerrank.com/certificates/9b087c4f8065" width="260" 
-        title="React (Basic) - HackerRank | May 21, 2025"/>
-      </a>
-    </td>
-  </tr>
 </table>
+
+</details>
 
 </details>
 

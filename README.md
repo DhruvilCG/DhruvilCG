@@ -136,9 +136,6 @@ const Dhruvil = {
 <details>
 <summary><h2>🎓 View Certificates (Toggle Here)</h2></summary>
 <br/>
-<details>
-<summary><h2>🎓 View Certificates (Toggle Here)</h2></summary>
-<br/>
 
 <table>
   <tr>
@@ -185,7 +182,6 @@ const Dhruvil = {
   </tr>
 </table>
 
-</details>
 </details>
 
 <br/>

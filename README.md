@@ -136,6 +136,9 @@ const Dhruvil = {
 <details>
 <summary><h2>🎓 View Certificates (Toggle Here)</h2></summary>
 <br/>
+<details>
+<summary><h2>🎓 View Certificates (Toggle Here)</h2></summary>
+<br/>
 
 <table>
   <tr>
@@ -161,8 +164,8 @@ const Dhruvil = {
     </td>
     <td align="center">
       <a href="https://www.naukri.com/campus/certificates/young_turks25_round_1_achievement/v0/68d9d36c7baf842bcc2da2ec" target="_blank">
-        <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1737130000/Naukri_Young_Turks_Placeholder.png" width="260" 
-        title="Naukri Campus Young Turks 2025 - Certificate of Merit"/>
+        <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1737131400/Naukri_Certificate_Placeholder.png" width="260" 
+        title="Certificate of Merit – Naukri Campus Young Turks 2025"/>
       </a>
     </td>
   </tr>
@@ -177,20 +180,6 @@ const Dhruvil = {
       <a href="https://www.hackerrank.com/certificates/9b087c4f8065" target="_blank">
         <img src="https://www.hackerrank.com/certificates/9b087c4f8065/image.jpg" width="260" 
         title="React (Basic) - HackerRank"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://onlinecourses.nptel.ac.in/" target="_blank">
-        <img src="https://res.cloudinary.com/dd5zrwqzj/image/upload/v1767675826/Screenshot_2026-01-06_at_10.33.31_AM_wwwd9z.png" width="260" 
-        title="NPTEL Programming in Java"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://www.sololearn.com/Certificate/CC-MZA4LT9Y/" target="_blank">
-        <img src="https://api2.sololearn.com/v2/certificates/CC-MZA4LT9Y/image/jpg" width="260" 
-        title="SoloLearn JavaScript Certificate"/>
       </a>
     </td>
   </tr>

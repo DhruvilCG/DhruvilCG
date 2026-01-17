@@ -1,0 +1,73 @@
+name: Generate Animation
+
+on:
+  schedule:  # Run every 12 hours
+    - cron: "0 */12 * * *"
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  generate:
+    runs-on: ubuntu-22.04  # Use Ubuntu 22.04 for consistency
+
+    steps:
+      # Step 1: Checkout the repository
+      - name: Checkout the repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.PAT_TOKEN }}  # Use your Personal Access Token for authentication
+
+      # Step 2: Enable debug logging for Git (optional)
+      - name: Enable debug logging for Git
+        run: |
+          echo "GIT_TRACE=1" >> $GITHUB_ENV
+          echo "GIT_CURL_VERBOSE=1" >> $GITHUB_ENV
+
+      # Step 3: Set Git user identity
+      - name: Set Git user identity
+        run: |
+          git config user.name "DhruvilCG"
+          git config user.email "dhruvilpatel.m@gmail.com"
+
+      # Step 4: Generate GitHub Contribution Snake Animation
+      - name: Generate github-contribution-grid-snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: DhruvilCG  # ✅ Your GitHub username
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}
+
+      # Step 5: Verify the generated files in the dist directory
+      - name: Verify files in dist directory
+        run: |
+          ls -la dist  # List files in the dist directory
+
+      # Step 6: Check if the generated SVG files exist
+      - name: Check if the generated SVG files exist
+        run: |
+          if [ ! -f dist/github-contribution-grid-snake.svg ]; then
+            echo "Error: github-contribution-grid-snake.svg not found!"
+            exit 1
+          fi
+          if [ ! -f dist/github-contribution-grid-snake-dark.svg ]; then
+            echo "Error: github-contribution-grid-snake-dark.svg not found!"
+            exit 1
+          fi
+
+      # Step 7: Pull the latest changes from the remote output branch
+      - name: Pull latest changes from remote output branch
+        run: |
+          git fetch origin
+          git checkout output || git checkout -b output
+          git pull origin output --rebase || echo "No changes to pull"
+
+      # Step 8: Push the generated SVGs to the output branch
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output  # Target branch
+          build_dir: dist  # Directory containing the SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}

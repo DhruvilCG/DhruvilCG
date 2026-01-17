@@ -198,8 +198,6 @@ const Dhruvil = {
 
 </details>
 
-</details>
-
 <br/>
 
 ![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/DhruvilCG/DhruvilCG/output/github-contribution-grid-snake-dark.svg)

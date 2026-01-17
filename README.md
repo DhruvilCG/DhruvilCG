@@ -200,7 +200,7 @@ const Dhruvil = {
 
 <br/>
 
-![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/Priyasha-Yadav/Priyasha-Yadav/output/dist/github-contribution-grid-snake-dark.svg)
+![GitHub Contribution Snake Dark](https://raw.githubusercontent.com/DhruvilCG/DhruvilCG/output/dist/github-contribution-grid-snake-dark.svg)
 
 <!--https://github.com/marwin1991/profile-technology-icons-->
 </br>

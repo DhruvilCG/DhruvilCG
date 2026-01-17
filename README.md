@@ -186,6 +186,7 @@ const Dhruvil = {
 </table>
 
 </details>
+</details>
 
 <br/>
 

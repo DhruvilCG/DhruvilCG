@@ -1,4 +1,4 @@
-# Heya! 👋 I'm Dhruvil Patel
+# Hi! 👋 I'm Dhruvil Patel
 ![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&width=435&lines=Welcome+to+my+Github+profile!)
 
 I’m Dhruvil — a full-stack developer passionate about building user-friendly web applications and integrating AI to create smarter, more intuitive experiences. I work primarily with modern JavaScript frameworks, backend APIs, and databases, often integrating AI-driven features to turn ideas into intelligent products.
